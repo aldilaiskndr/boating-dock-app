@@ -143,6 +143,19 @@ public class BoatingDockDaoMapImplTest {
         expectedResult.add(boat2.getRegNumber());
         assertEquals(expectedResult.toString(), boatingDockDao.getBoatsByColour(givenColour));
     }
+    @Test
+    public void getBoatsByColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_matching_with_given_colour() {
+        Integer givenCapacity = 2;
+        String givenColour = "Black";
+        Boat boat1 = new Boat("KA-01-HH-1234", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        boatingDockDao.docking(boat2);
+        System.out.println(boatingDockDao.getStatus());
+        assertEquals(MessageConstant.NO_MATCHING_COLOUR, boatingDockDao.getBoatsByColour(givenColour));
+    }
 
     @Test
     public void getSlotNumberByBoatColour() {

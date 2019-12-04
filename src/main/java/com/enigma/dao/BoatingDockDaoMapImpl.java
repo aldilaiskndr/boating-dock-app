@@ -79,13 +79,17 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
     }
     @Override
     public String getBoatsByColour(String keywordColour){
+        Integer empty = 0;
         List<String> regNumbers = new ArrayList<>();
         for (Map.Entry<Integer, Boat> pier:piers.entrySet()){
             if(pier.getValue().getColour().equals(keywordColour)){
                 regNumbers.add(pier.getValue().getRegNumber());
             }
         }
-        return regNumbers.toString();
+        if(regNumbers.size()!=empty){
+            return regNumbers.toString();
+        }
+        return MessageConstant.NO_MATCHING_COLOUR;
     }
     @Override
     public String getSlotNumberByBoatColour(){
