@@ -7,7 +7,7 @@ public interface BoatingDockDao {
 
     String docking(Boat boat);
 
-    String leave(Boat boat, Integer pierNumber);
+    String leave(Integer pierNumber);
 
     String getStatus();
 

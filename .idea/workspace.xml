@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9a1326-e5c0-45f1-960f-bc3c06ded41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/constant/MessageConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDaoMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDaoMapImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockDaoMapImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockDaoMapImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/enigma/dao/BoatingDockDaoMapImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/enigma/dao/BoatingDockDaoMapImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="boating-dock-app" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +61,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoatingDockDaoMapImplTest.docking_should_return_allocated_to_pier_number_2_when_second_boat_entry_to_pier_with_given_capacity_2">
+  <component name="RunManager" selected="JUnit.BoatingDockDaoMapImplTest.getStatus_should_return_a_describe_from_current_state">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="boating-dock-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoatingDockDaoMapImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
@@ -68,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.getStatus_should_return_a_describe_from_current_state" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +94,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
       <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" />
+      <option name="METHOD_NAME" value="getStatus_should_return_a_describe_from_current_state" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.docking_should_return_allocated_to_pier_number_1_when_1_boat_entry_to_pier_with_given_capacity_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.leave_should_return_message_leave_when_given_pierNumber_is_exist_and_there_is_a_boat_docked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
       <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="docking_should_return_allocated_to_pier_number_1_when_1_boat_entry_to_pier_with_given_capacity_2" />
+      <option name="METHOD_NAME" value="leave_should_return_message_leave_when_given_pierNumber_is_exist_and_there_is_a_boat_docked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.docking_should_return_allocated_to_pier_number_2_when_second_boat_entry_to_pier_with_given_capacity_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.leave_should_return_pier_number_not_found_when_given_pierNumber_is_not_exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -110,23 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
       <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="docking_should_return_allocated_to_pier_number_2_when_second_boat_entry_to_pier_with_given_capacity_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.docking_should_return_message_dock_fail_when_second_boat_entry_to_pier_with_given_capacity_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boating-dock-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="docking_should_return_message_dock_fail_when_second_boat_entry_to_pier_with_given_capacity_1" />
+      <option name="METHOD_NAME" value="leave_should_return_pier_number_not_found_when_given_pierNumber_is_not_exist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.docking_should_return_allocated_to_pier_number_2_when_second_boat_entry_to_pier_with_given_capacity_2" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.docking_should_return_message_dock_fail_when_second_boat_entry_to_pier_with_given_capacity_1" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.docking_should_return_allocated_to_pier_number_1_when_1_boat_entry_to_pier_with_given_capacity_2" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getStatus_should_return_a_describe_from_current_state" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BoatingDockDaoMapImplTest" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.leave_should_return_message_leave_when_given_pierNumber_is_exist_and_there_is_a_boat_docked" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.leave_should_return_pier_number_not_found_when_given_pierNumber_is_not_exist" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575424197437</updated>
-      <workItem from="1575424200965" duration="4714000" />
+      <workItem from="1575424200965" duration="7550000" />
     </task>
     <servers />
   </component>
@@ -184,22 +184,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1575427894661" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575429107757">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575431759838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575429107757" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575429107757">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575431759838" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575431759838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575429107757" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575429107756">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575431759838" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575431759838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575429107756" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575429107757">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575431759838" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575431759838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575429107757" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575431759838" />
     <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575426935176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

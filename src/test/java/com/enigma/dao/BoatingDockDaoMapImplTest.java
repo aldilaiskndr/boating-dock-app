@@ -78,11 +78,50 @@ public class BoatingDockDaoMapImplTest {
     }
 
     @Test
-    public void leave() {
+    public void leave_should_return_message_leave_when_given_pierNumber_is_exist_and_there_is_a_boat_docked() {
+        Integer givenCapacity = 1;
+        Boat boat = new Boat("KA-01-HH-1234", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat);
+        Integer pierNumber = 1;
+        String expectedResult = String.format(MessageConstant.LEAVE, pierNumber);
+        assertEquals(expectedResult, boatingDockDao.leave(pierNumber));
+    }
+    @Test
+    public void leave_should_fail_when_there_is_no_boat_at_given_pier_number() {
+        Integer givenCapacity = 1;
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        Integer pierNumber = 1;
+        String expectedResult = String.format(MessageConstant.LEAVE_FAIL, pierNumber);
+        assertEquals(expectedResult, boatingDockDao.leave(pierNumber));
+    }
+    @Test
+    public void leave_should_return_pier_number_not_found_when_given_pierNumber_is_not_exist() {
+        Integer givenCapacity = 1;
+        Boat boat = new Boat("KA-01-HH-1234", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat);
+        Integer pierNumber = 2;
+        String expectedResult = String.format(MessageConstant.PIER_NUMBER_NOT_FOUND, pierNumber);
+        assertEquals(expectedResult, boatingDockDao.leave(pierNumber));
     }
 
     @Test
-    public void getStatus() {
+    public void getStatus_should_return_a_describe_from_current_state() {
+        Integer givenCapacity = 1;
+        Boat boat = new Boat("KA-01-HH-1234", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat);
+        Integer expectedPierNumber = 1;
+        StringBuilder expectedResult = new StringBuilder();
+        String header = String.format("%-10s%-20s%-10s", MessageConstant.STATUS_HEAD_NUMBER, MessageConstant.STATUS_HEAD_REG_NUMBER, MessageConstant.STATUS_HEAD_COLOUR);
+        expectedResult.append(header);
+        expectedResult.append(String.format("\n%-10d%-20s%-10s", expectedPierNumber, boat.getRegNumber(), boat.getColour()));
+        assertEquals(expectedResult.toString(), boatingDockDao.getStatus());
     }
 
     @Test

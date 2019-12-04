@@ -52,12 +52,28 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
         return MessageConstant.DOCK_FAIL;
     }
     @Override
-    public String leave(Boat boat, Integer pierNumber){
-        return null;
+    public String leave(Integer pierNumber){
+        for (Map.Entry<Integer, Boat> pier:piers.entrySet()){
+            if (pier.getKey().equals(pierNumber)&&pier.getValue()!=null){
+                pier.setValue(null);
+                return String.format(MessageConstant.LEAVE, pier.getKey());
+            }else if(pier.getValue()==null){
+                return String.format(MessageConstant.LEAVE_FAIL, pier.getKey());
+            }
+        }
+        return String.format(MessageConstant.PIER_NUMBER_NOT_FOUND, pierNumber);
     }
     @Override
     public String getStatus(){
-        return null;
+        StringBuilder status = new StringBuilder();
+        String header = String.format("%-10s%-20s%-10s", MessageConstant.STATUS_HEAD_NUMBER, MessageConstant.STATUS_HEAD_REG_NUMBER, MessageConstant.STATUS_HEAD_COLOUR);
+        status.append(header);
+        for (Map.Entry<Integer, Boat> pier:piers.entrySet()){
+            if (pier.getValue()!=null){
+                status.append(String.format("\n%-10d%-20s%-10s", pier.getKey(), pier.getValue().getRegNumber(), pier.getValue().getColour()));
+            }
+        }
+        return status.toString();
     }
     @Override
     public String getBoatsByColour(){

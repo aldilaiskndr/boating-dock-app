@@ -6,9 +6,11 @@ public class MessageConstant {
     public static final String DOCK_SUCCESS = "Allocated pier number: %d";
     public static final String DOCK_FAIL = "Sorry, boating dock is full";
     public static final String LEAVE = "Pier number %d is free";
+    public static final String LEAVE_FAIL = "There's no boat is dock at pier number %d";
+    public static final String PIER_NUMBER_NOT_FOUND = "Sorry, pier number %d not found";
     public static final String STATUS_HEAD_NUMBER = "Pier No.";
     public static final String STATUS_HEAD_REG_NUMBER = "Registration No.";
     public static final String STATUS_HEAD_COLOUR = "Colour";
-    public static final String NOT_FOUND = "Not Found";
+    public static final String NOT_FOUND = "%s Not Found";
 
 }
