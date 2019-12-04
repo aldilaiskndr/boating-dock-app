@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9a1326-e5c0-45f1-960f-bc3c06ded41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockMapImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockMapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDaoMapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockMapImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockDaoMapImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +51,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0">
-    <configuration name="BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_fail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BoatingDockDaoMapImplTest">
+    <configuration name="BoatingDockDaoMapImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -63,14 +61,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockMapImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_fail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boating-dock-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enigma.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enigma.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
       <option name="METHOD_NAME" value="createBoatingDock_should_return_message_created_boating_dock_fail_when_fail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockMapImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
       <option name="METHOD_NAME" value="createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_when_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_when_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockMapImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
       <option name="METHOD_NAME" value="createBoatingDock_should_return_message_created_boating_dock_when_success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockMapImplTest.getCapacity_should_return_given_capacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockDaoMapImplTest.setCapacity_should_change_capacity_value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
@@ -111,23 +124,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockMapImplTest" />
-      <option name="METHOD_NAME" value="getCapacity_should_return_given_capacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoatingDockMapImplTest.setCapacity_should_change_capacity_value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boating-dock-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockMapImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
       <option name="METHOD_NAME" value="setCapacity_should_change_capacity_value" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" />
-        <item itemvalue="JUnit.BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_fail" />
-        <item itemvalue="JUnit.BoatingDockMapImplTest.createBoatingDock_should_return_message_created_boating_dock_when_success" />
-        <item itemvalue="JUnit.BoatingDockMapImplTest.setCapacity_should_change_capacity_value" />
-        <item itemvalue="JUnit.BoatingDockMapImplTest.getCapacity_should_return_given_capacity" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_givenCapacity_lessThan0" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_fail_when_fail" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.createBoatingDock_should_return_message_created_boating_dock_when_success" />
+        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.setCapacity_should_change_capacity_value" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575424197437</updated>
-      <workItem from="1575424200965" duration="3432000" />
+      <workItem from="1575424200965" duration="3743000" />
     </task>
     <servers />
   </component>
@@ -182,22 +179,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575427108270" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575427729461">
+    <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575427894661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575427729461" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575427729461">
+    <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1575427894661" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575427953255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575427729461" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575427729460">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575427953255" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575427953254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575427729460" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575427729461">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575427953254" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575427953254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575427729461" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575427953254" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575427953254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575427953254" />
     <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575426935176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

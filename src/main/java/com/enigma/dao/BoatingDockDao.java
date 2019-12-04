@@ -2,7 +2,7 @@ package com.enigma.dao;
 
 import com.enigma.models.Boat;
 
-public interface BoatingDock {
+public interface BoatingDockDao {
     String createBoatingDock(Integer capacity);
 
     String dock(Boat boat);

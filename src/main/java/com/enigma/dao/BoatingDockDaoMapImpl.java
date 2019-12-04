@@ -6,20 +6,20 @@ import com.enigma.models.Boat;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BoatingDockMapImpl implements BoatingDock {
+public class BoatingDockDaoMapImpl implements BoatingDockDao {
     private Map<Integer, Boat> piers = new HashMap<>();
     private Integer capacity;
 
-    public BoatingDockMapImpl(Map<Integer, Boat> piers, Integer capacity) {
+    public BoatingDockDaoMapImpl(Map<Integer, Boat> piers, Integer capacity) {
         this.piers = piers;
         this.capacity = capacity;
     }
 
-    public BoatingDockMapImpl(Integer capacity) {
+    public BoatingDockDaoMapImpl(Integer capacity) {
         this.capacity = capacity;
     }
 
-    public BoatingDockMapImpl() {
+    public BoatingDockDaoMapImpl() {
     }
 
     public Integer getCapacity() {
