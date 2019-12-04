@@ -13,5 +13,6 @@ public class MessageConstant {
     public static final String STATUS_HEAD_COLOUR = "Colour";
     public static final String NOT_FOUND = "%s Not Found";
     public static final String NO_MATCHING_COLOUR = "There's no boat with a suitable with given color";
+    public static final String COMMAND_NOT_FOUND = "Sorry, no suitable commands";
 
 }
