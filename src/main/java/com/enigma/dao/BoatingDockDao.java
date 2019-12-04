@@ -11,9 +11,9 @@ public interface BoatingDockDao {
 
     String getStatus();
 
-    String getBoatsByColour(String colour);
+    String getBoatsByColour(String keywordColour);
 
-    String getSlotNumberByBoatColour();
+    String getSlotNumberByBoatColour(String keywordColour);
 
     String getSlotNumberByBoat();
 }
