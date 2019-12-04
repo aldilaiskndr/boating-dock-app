@@ -1,1 +1,1 @@
-java -jar E:\exam\boating-dock-app\target\boating-dock-app-1.0-SNAPSHOT.jar E:\exam\boating-dock-app\file_inputs.txt
+java -jar target\boating-dock-app-1.0-SNAPSHOT.jar file_inputs.txt

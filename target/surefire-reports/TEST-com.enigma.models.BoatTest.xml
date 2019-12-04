@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.enigma.models.BoatTest" time="0" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.enigma.models.BoatTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -68,6 +68,6 @@
   <testcase classname="com.enigma.models.BoatTest" name="setColour_should_change_colour_value" time="0"/>
   <testcase classname="com.enigma.models.BoatTest" name="getColour_should_return_string_valueOf_colour" time="0"/>
   <testcase classname="com.enigma.models.BoatTest" name="getRegNumber_should_return_string_regNumber" time="0"/>
-  <testcase classname="com.enigma.models.BoatTest" name="setRegNumber_should_change_regNumber_value" time="0"/>
+  <testcase classname="com.enigma.models.BoatTest" name="setRegNumber_should_change_regNumber_value" time="0.001"/>
   <testcase classname="com.enigma.models.BoatTest" name="testEquals_should_return_true_when_compare_a_boat" time="0"/>
 </testsuite>

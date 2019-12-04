@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9a1326-e5c0-45f1-960f-bc3c06ded41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boating_dock_file.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boating_dock_input.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enigma/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/boating-dock-app.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/boating-dock-app.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boating_dock_file.bat" beforeDir="false" afterPath="$PROJECT_DIR$/boating_dock_file.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -176,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575424197437</updated>
-      <workItem from="1575424200965" duration="24405000" />
+      <workItem from="1575424200965" duration="26021000" />
     </task>
     <servers />
   </component>
