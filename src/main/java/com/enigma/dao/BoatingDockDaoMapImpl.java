@@ -12,11 +12,6 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
     private Map<Integer, Boat> piers = new HashMap<>();
     private Integer capacity;
 
-    public BoatingDockDaoMapImpl(Map<Integer, Boat> piers, Integer capacity) {
-        this.piers = piers;
-        this.capacity = capacity;
-    }
-
     public BoatingDockDaoMapImpl(Integer capacity) {
         this.capacity = capacity;
     }
