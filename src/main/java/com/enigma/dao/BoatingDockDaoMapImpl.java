@@ -42,8 +42,14 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
         return MessageConstant.CREATED_BOATING_DOCK_FAIL;
     }
     @Override
-    public String dock(Boat boat){
-        return null;
+    public String docking(Boat boat){
+        for (Map.Entry<Integer, Boat> pier:piers.entrySet()){
+            if (pier.getValue()==null){
+                pier.setValue(boat);
+                return String.format(MessageConstant.DOCK_SUCCESS, pier.getKey());
+            }
+        }
+        return MessageConstant.DOCK_FAIL;
     }
     @Override
     public String leave(Boat boat, Integer pierNumber){

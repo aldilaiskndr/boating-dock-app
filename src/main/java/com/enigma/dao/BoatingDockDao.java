@@ -5,7 +5,7 @@ import com.enigma.models.Boat;
 public interface BoatingDockDao {
     String createBoatingDock(Integer capacity);
 
-    String dock(Boat boat);
+    String docking(Boat boat);
 
     String leave(Boat boat, Integer pierNumber);
 

@@ -45,9 +45,36 @@ public class BoatingDockDaoMapImplTest {
     }
 
     @Test
-    public void dock() {
+    public void docking_should_return_allocated_to_pier_number_1_when_1_boat_entry_to_pier_with_given_capacity_2() {
+        Integer givenCapacity = 2;
         Boat boat = new Boat("KA-01-HH-1234", "White");
-
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        Integer expectedPierNumber = 1;
+        String expectedResult = String.format(MessageConstant.DOCK_SUCCESS, expectedPierNumber);
+        assertEquals(expectedResult, boatingDockDao.docking(boat));
+    }
+    @Test
+    public void docking_should_return_allocated_to_pier_number_2_when_second_boat_entry_to_pier_with_given_capacity_2() {
+        Integer givenCapacity = 2;
+        Boat boat1 = new Boat("KA-01-HH-1234", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        Integer expectedPierNumber = 2;
+        String expectedResult = String.format(MessageConstant.DOCK_SUCCESS, expectedPierNumber);
+        assertEquals(expectedResult, boatingDockDao.docking(boat2));
+    }
+    @Test
+    public void docking_should_return_message_dock_fail_when_second_boat_entry_to_pier_with_given_capacity_1() {
+        Integer givenCapacity = 1;
+        Boat boat1 = new Boat("KA-01-HH-1234", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        assertEquals(MessageConstant.DOCK_FAIL, boatingDockDao.docking(boat2));
     }
 
     @Test
