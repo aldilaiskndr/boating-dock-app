@@ -4,6 +4,9 @@ import com.enigma.constant.MessageConstant;
 import com.enigma.models.Boat;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class BoatingDockDaoMapImplTest {
@@ -125,7 +128,20 @@ public class BoatingDockDaoMapImplTest {
     }
 
     @Test
-    public void getBoatsByColour() {
+    public void getBoatsByColour_should_return_reg_number_of_boats_with_given_colour() {
+        Integer givenCapacity = 2;
+        String givenColour = "White";
+        Boat boat1 = new Boat("KA-01-HH-1234", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "White");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        boatingDockDao.docking(boat2);
+        System.out.println(boatingDockDao.getStatus());
+        List<String> expectedResult = new ArrayList<>();
+        expectedResult.add(boat1.getRegNumber());
+        expectedResult.add(boat2.getRegNumber());
+        assertEquals(expectedResult.toString(), boatingDockDao.getBoatsByColour(givenColour));
     }
 
     @Test

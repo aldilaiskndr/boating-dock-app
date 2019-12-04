@@ -3,7 +3,9 @@ package com.enigma.dao;
 import com.enigma.constant.MessageConstant;
 import com.enigma.models.Boat;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class BoatingDockDaoMapImpl implements BoatingDockDao {
@@ -76,8 +78,14 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
         return status.toString();
     }
     @Override
-    public String getBoatsByColour(){
-        return null;
+    public String getBoatsByColour(String keywordColour){
+        List<String> regNumbers = new ArrayList<>();
+        for (Map.Entry<Integer, Boat> pier:piers.entrySet()){
+            if(pier.getValue().getColour().equals(keywordColour)){
+                regNumbers.add(pier.getValue().getRegNumber());
+            }
+        }
+        return regNumbers.toString();
     }
     @Override
     public String getSlotNumberByBoatColour(){
