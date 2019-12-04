@@ -1,0 +1,15 @@
+create_boating_dock 6
+dock KA-01-HH-1234 White
+dock KA-01-HH-9999 White
+dock KA-01-BB-0001 Black
+dock KA-01-HH-7777 Red
+dock KA-01-HH-2701 Blue
+dock KA-01-HH-3141 Black
+leave 4
+status
+dock KA-01-P-333 White
+dock DL-12-AA-9999 White
+registration_numbers_for_boats_with_colour White
+slot_numbers_for_boats_with_colour White
+slot_number_for_registration_number KA-01-HH-3141
+slot_number_for_registration_number MH-04-AY-1111

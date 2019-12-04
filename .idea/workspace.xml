@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9a1326-e5c0-45f1-960f-bc3c06ded41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boating_dock_file.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boating_dock_input.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enigma/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDaoMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/dao/BoatingDockDaoMapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockDaoMapImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/enigma/dao/BoatingDockDaoMapImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/boating-dock-app.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/constant/MessageConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/enigma/dao/BoatingDockDaoMapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/boating-dock-app.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="81" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="boating-dock-app" />
@@ -19,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,99 +49,96 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.enigma.dao" />
     </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.enigma.reader" />
+      <recent name="com.enigma.models" />
+      <recent name="com.enigma.runner" />
       <recent name="com.enigma.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.enigma" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\exam\boating-dock-app\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.enigma.reader" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatRegNumber_should_return_message_not_found_when_there_is_no_boat_suitable_with_givenRegNumber">
-    <configuration name="BoatingDockDaoMapImplTest.getSlotNumberByBoatColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in boating-dock-app">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.enigma.Main" />
+      <module name="boating-dock-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in boating-dock-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boating-dock-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoatingDockFileReaderImplTest.readCommands_should_return_list_of_string_with_exact_value_from_file_input_line_by_line" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
+          <option name="PATTERN" value="com.enigma.reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="getSlotNumberByBoatColour" />
+      <option name="PACKAGE_NAME" value="com.enigma.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.reader.BoatingDockFileReaderImplTest" />
+      <option name="METHOD_NAME" value="readCommands_should_return_list_of_string_with_exact_value_from_file_input_line_by_line" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.getSlotNumberByBoatColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_matching_with_given_colour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockFileReaderImplTest.readCommands_should_return_list_of_string_with_size_15_when_a_file_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
+          <option name="PATTERN" value="com.enigma.reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="getSlotNumberByBoatColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_matching_with_given_colour" />
+      <option name="PACKAGE_NAME" value="com.enigma.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.reader.BoatingDockFileReaderImplTest" />
+      <option name="METHOD_NAME" value="readCommands_should_return_list_of_string_with_size_15_when_a_file_input" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.getSlotNumberByBoatColour_should_return_pair_number_of_boats_with_given_colour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoatingDockInputReaderImplTest.readCommand_should_call_CommandRunner_runCommand_once" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boating-dock-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
+          <option name="PATTERN" value="com.enigma.reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="getSlotNumberByBoatColour_should_return_pair_number_of_boats_with_given_colour" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.getSlotNumberByBoatRegNumber_should_return_message_not_found_when_there_is_no_boat_suitable_with_givenRegNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boating-dock-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="getSlotNumberByBoatRegNumber_should_return_message_not_found_when_there_is_no_boat_suitable_with_givenRegNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoatingDockDaoMapImplTest.getSlotNumberByBoatRegNumber_should_return_pierNumber_of_boat_that_suitable_with_givenRegNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boating-dock-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.enigma.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.enigma.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.enigma.dao.BoatingDockDaoMapImplTest" />
-      <option name="METHOD_NAME" value="getSlotNumberByBoatRegNumber_should_return_pierNumber_of_boat_that_suitable_with_givenRegNumber" />
+      <option name="PACKAGE_NAME" value="com.enigma.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.enigma.reader.BoatingDockInputReaderImplTest" />
+      <option name="METHOD_NAME" value="readCommand_should_call_CommandRunner_runCommand_once" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatRegNumber_should_return_message_not_found_when_there_is_no_boat_suitable_with_givenRegNumber" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatRegNumber_should_return_pierNumber_of_boat_that_suitable_with_givenRegNumber" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_matching_with_given_colour" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatColour_should_return_pair_number_of_boats_with_given_colour" />
-        <item itemvalue="JUnit.BoatingDockDaoMapImplTest.getSlotNumberByBoatColour" />
+        <item itemvalue="JUnit.All in boating-dock-app" />
+        <item itemvalue="JUnit.BoatingDockInputReaderImplTest.readCommand_should_call_CommandRunner_runCommand_once" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BoatingDockFileReaderImplTest.readCommands_should_return_list_of_string_with_exact_value_from_file_input_line_by_line" />
+        <item itemvalue="JUnit.BoatingDockFileReaderImplTest.readCommands_should_return_list_of_string_with_size_15_when_a_file_input" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575424197437</updated>
-      <workItem from="1575424200965" duration="10154000" />
+      <workItem from="1575424200965" duration="24405000" />
     </task>
     <servers />
   </component>
@@ -176,37 +184,68 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1575424439812">
+    <state x="361" y="70" key="#Auto_Import" timestamp="1575449796942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575424439812" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1575427108270">
+    <state x="361" y="70" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1575449796942" />
+    <state x="361" y="70" key="#Project_Structure" timestamp="1575448969088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575427108270" />
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575448969088" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1575445037277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575445037277" />
+    <state x="566" y="271" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575452071999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="271" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1575452071999" />
     <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575427894661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1575427894661" />
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1575434531953">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1575453554614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575434531953" />
-    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1575434531953">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575453554614" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1575453554614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575434531953" />
-    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1575434531952">
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575453554614" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1575453554613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575434531952" />
-    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1575434531953">
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575453554613" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1575453554614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575434531953" />
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575426935176">
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575453554614" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1575441836889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1575426935176" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575441836889" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1575441836889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575441836889" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1575441836888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575441836888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1575441836889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575441836889" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575449686792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1575449686792" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1575441881968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1575441881968" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/boating_dock_app$All_in_boating_dock_app.ic" NAME="All in boating-dock-app Coverage Results" MODIFIED="1575452672839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

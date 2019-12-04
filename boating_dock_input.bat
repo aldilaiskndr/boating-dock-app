@@ -1,0 +1,1 @@
+java -jar E:\exam\boating-dock-app\target\boating-dock-app-1.0-SNAPSHOT.jar input

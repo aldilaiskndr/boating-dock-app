@@ -1,0 +1,4 @@
+com\enigma\runner\BoatingDockCommandRunnerImplTest.class
+com\enigma\dao\BoatingDockDaoMapImplTest.class
+com\enigma\reader\BoatingDockFileReaderImplTest.class
+com\enigma\models\BoatTest.class
