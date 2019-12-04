@@ -15,5 +15,5 @@ public interface BoatingDockDao {
 
     String getSlotNumberByBoatColour(String keywordColour);
 
-    String getSlotNumberByBoat();
+    String getSlotNumberByBoatRegNumber(String regNumber);
 }

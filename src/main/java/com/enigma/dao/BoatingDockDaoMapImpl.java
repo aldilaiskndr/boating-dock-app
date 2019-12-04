@@ -106,7 +106,14 @@ public class BoatingDockDaoMapImpl implements BoatingDockDao {
         return MessageConstant.NO_MATCHING_COLOUR;
     }
     @Override
-    public String getSlotNumberByBoat(){
-        return null;
+    public String getSlotNumberByBoatRegNumber(String regNumber){
+        Integer pierNumber;
+        for (Map.Entry<Integer, Boat> pier:piers.entrySet()) {
+            if(pier.getValue().getRegNumber().equals(regNumber)){
+                pierNumber = pier.getKey();
+                return String.valueOf(pierNumber);
+            }
+        }
+        return String.format(MessageConstant.NOT_FOUND, regNumber);
     }
 }

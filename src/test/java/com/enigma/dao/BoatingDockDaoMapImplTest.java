@@ -173,7 +173,7 @@ public class BoatingDockDaoMapImplTest {
         assertEquals(expectedResult.toString(), boatingDockDao.getSlotNumberByBoatColour(givenColour));
     }
     @Test
-    public void getSlotNumberByBoatColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_matching_with_given_colour() {
+    public void getSlotNumberByBoatColour_should_return_message_no_matching_colour_when_there_is_no_boat_is_suitable_with_given_colour() {
         Integer givenCapacity = 1;
         String givenColour = "Black";
         Boat boat = new Boat("KA-01-HH-1234", "White");
@@ -185,6 +185,29 @@ public class BoatingDockDaoMapImplTest {
     }
 
     @Test
-    public void getSlotNumberByBoat() {
+    public void getSlotNumberByBoatRegNumber_should_return_pierNumber_of_boat_that_suitable_with_givenRegNumber() {
+        Integer givenCapacity = 2;
+        String givenRegNumber = "KA-01-HH-1234";
+        Boat boat1 = new Boat("KA-01-HH-1234", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "Black");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        boatingDockDao.docking(boat2);
+        String expectedResult = "1";
+        assertEquals(expectedResult, boatingDockDao.getSlotNumberByBoatRegNumber(givenRegNumber));
+    }
+    @Test
+    public void getSlotNumberByBoatRegNumber_should_return_message_not_found_when_there_is_no_boat_suitable_with_givenRegNumber() {
+        Integer givenCapacity = 2;
+        String givenRegNumber = "KA-01-HH-1234";
+        Boat boat1 = new Boat("KA-01-HH-0001", "White");
+        Boat boat2 = new Boat("KA-01-HH-9999", "Black");
+        BoatingDockDao boatingDockDao = new BoatingDockDaoMapImpl();
+        boatingDockDao.createBoatingDock(givenCapacity);
+        boatingDockDao.docking(boat1);
+        boatingDockDao.docking(boat2);
+        String expectedResult = String.format(MessageConstant.NOT_FOUND, givenRegNumber);
+        assertEquals(expectedResult, boatingDockDao.getSlotNumberByBoatRegNumber(givenRegNumber));
     }
 }
