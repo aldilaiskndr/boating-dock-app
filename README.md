@@ -9,11 +9,11 @@ which the pier number is available.
 the command inputs can be a file_inputs.txt 
 or you can inputs the commands in terminal
 ```
-##Prerequisites 
+#### _Prerequisites_
 >make sure you already install java 1.8 and maven
 >and make sure the environment variable for JAVA is exist in your OS
 
-##HOW TO RUN THIS APP?
+## _HOW TO RUN THIS APP?_
 >first thing first, open your **TERMINAL** inside the project folder
 >
 >project folder : ```boating-dock-app```
@@ -27,4 +27,4 @@ or you can inputs the commands in terminal
 >type `boating_dock_input` for input your commands on terminal.
 >
 
-#######_created by Aldila Iskandar 04/12/2019_ 
+####### _created by Aldila Iskandar 04/12/2019_ 

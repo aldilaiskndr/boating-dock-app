@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9a1326-e5c0-45f1-960f-bc3c06ded41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boating_dock_file.bat" beforeDir="false" afterPath="$PROJECT_DIR$/boating_dock_file.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boating-dock-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/boating-dock-app-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enigma.dao.BoatingDockDaoMapImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enigma.dao.BoatingDockDaoMapImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enigma.models.BoatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enigma.models.BoatTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.enigma.dao.BoatingDockDaoMapImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.enigma.dao.BoatingDockDaoMapImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.enigma.models.BoatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.enigma.models.BoatTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.enigma.reader.BoatingDockFileReaderImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.enigma.reader.BoatingDockFileReaderImplTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UUvsnVwMnySQHxDTySzPPHecaw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -169,12 +177,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575424197437</updated>
-      <workItem from="1575424200965" duration="26021000" />
+      <workItem from="1575424200965" duration="26395000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Auto_Import" timestamp="1575449796942">
